@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 /* Estilos gerais */
 body {
   font-family: Arial, sans-serif;
@@ -50,13 +53,10 @@ footer {
   background-color: #333;
   color: white;
   padding: 1rem;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
 }
 
 /* Tabelas responsivas */
-.tebela-responsiva {
+.tabela-responsiva {
   overflow-x: auto;
 }
 
@@ -113,6 +113,7 @@ tr:hover {
     white-space: nowrap;
     content: attr(data-label);
     font-weight: bold;
+    text-transform: capitalize; /* Dica: Isso deixa a primeira letra maiúscula no celular */
   }
 }
 
@@ -130,6 +131,7 @@ tr:hover {
   border-radius: 8px;
   padding: 1rem;
   width: 300px;
+  flex-grow: 1;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
