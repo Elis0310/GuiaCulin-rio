@@ -15,3 +15,9 @@ Este arquivo registra os desafios técnicos que encontrei durante o desenvolvime
 * **U (Untracked):** Arquivo novo que o Git ainda não conhece.
 * **M (Modified):** Arquivo que já existia mas foi alterado.
 * **Commit & Push:** O commit salva localmente, o push envia para a "Fonte Única da Verdade" (GitHub).
+📝 Registro de Aprendizado: Padronização e Fluxo
+"A inconsistência entre o nome da classe no HTML e o seletor no CSS impede a renderização correta dos estilos, por isso a padronização é vital em fluxos de deploy.
+
+Corrigi a divergência de escrita entre o CSS e o HTML, além de ajustar o fluxo de versioneamento, garantindo que o código esteja pronto para o push no GitHub Pages.
+
+A ausência da imagem referenciada na meta tag gera um erro de 404 (Not Found), prejudicando o compartilhamento do site; por isso, em DevOps, validamos se todos os caminhos (ou assets) estáticos estão presentes antes do deploy final."
